@@ -1,13 +1,13 @@
-import pandas as pd
-import json
-import argparse
+# import pandas as pd
+# import json
+# import argparse
 import os
-import openai
+# import openai
 from logger import setup_logger
-from typing import Optional
-import time
-from gpt_fine_tuner import GPTFineTuner
-from excel_to_jsonl import convert_excel_to_jsonl
+# from typing import Optional
+# import time
+# from gpt_fine_tuner import GPTFineTuner
+# from excel_to_jsonl import convert_excel_to_jsonl
 
 # 设置日志
 logger = setup_logger(__name__)

@@ -1,8 +1,6 @@
 import logging
 import os
 from datetime import datetime
-import sys
-
 
 # Setup logger settings
 def setup_logger(name=None, log_level="INFO", log_dir="logs", console=True, file=True):
