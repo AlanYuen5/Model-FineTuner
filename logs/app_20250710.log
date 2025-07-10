@@ -1,0 +1,11 @@
+2025-07-10 11:01:42,490 - __main__ - INFO - local_data.json loaded.
+2025-07-10 11:01:44,365 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-10 11:01:44,969 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-10 11:01:44,971 - __main__ - INFO - local_data.json loaded.
+2025-07-10 11:01:45,541 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-10 11:01:45,543 - __main__ - INFO - local_data.json loaded.
+2025-07-10 11:01:45,544 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-10 11:01:46,184 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-10 11:01:46,186 - __main__ - INFO - local_data.json loaded.
+2025-07-10 11:01:47,689 - __main__ - INFO - 用户切换到页面: Home
+2025-07-10 11:01:47,693 - __main__ - INFO - local_data.json loaded.

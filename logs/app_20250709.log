@@ -1,0 +1,554 @@
+2025-07-09 10:39:29,549 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:39:36,915 - __main__ - INFO - 用户切换到页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:39:36,917 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:39:49,249 - __main__ - INFO - 用户切换到页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:39:49,251 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:07,342 - __main__ - INFO - 用户访问了未实现页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:40:08,911 - __main__ - INFO - 用户切换到页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:40:08,912 - __main__ - INFO - 用户访问了未实现页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:40:35,442 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:35,984 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:38,056 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:40:38,058 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:39,513 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 10:40:39,517 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:40,195 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 10:40:40,838 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 10:40:40,840 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:40:41,722 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:40:41,724 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:41:27,711 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:46:39,623 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:46:41,555 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:46:41,557 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:47:28,302 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:47:29,148 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 10:47:29,150 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:47:32,186 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:47:32,188 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:47:35,058 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4-0613', 'gpt-4', 'gpt-3.5-turbo', 'gpt-4o-audio-preview-2025-06-03', 'gpt-4.1-nano-2025-04-14', 'gpt-4.1-nano', 'gpt-4o-realtime-preview-2025-06-03', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-instruct-0914', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'gpt-4-0125-preview', 'gpt-4-turbo-preview', 'gpt-3.5-turbo-0125', 'gpt-4-turbo', 'gpt-4-turbo-2024-04-09', 'gpt-4o', 'gpt-4o-2024-05-13', 'gpt-4o-mini-2024-07-18', 'gpt-4o-mini', 'gpt-4o-2024-08-06', 'gpt-4o-realtime-preview-2024-10-01', 'gpt-4o-audio-preview-2024-10-01', 'gpt-4o-audio-preview', 'gpt-4o-realtime-preview', 'gpt-4o-realtime-preview-2024-12-17', 'gpt-4o-audio-preview-2024-12-17', 'gpt-4o-mini-realtime-preview-2024-12-17', 'gpt-4o-mini-audio-preview-2024-12-17', 'gpt-4o-mini-realtime-preview', 'gpt-4o-mini-audio-preview', 'gpt-4o-2024-11-20', 'gpt-4.5-preview', 'gpt-4.5-preview-2025-02-27', 'gpt-4o-search-preview-2025-03-11', 'gpt-4o-search-preview', 'gpt-4o-mini-search-preview-2025-03-11', 'gpt-4o-mini-search-preview', 'gpt-4o-transcribe', 'gpt-4o-mini-transcribe', 'gpt-4o-mini-tts', 'gpt-4.1-2025-04-14', 'gpt-4.1', 'gpt-4.1-mini-2025-04-14', 'gpt-4.1-mini', 'gpt-3.5-turbo-16k']
+2025-07-09 10:47:35,059 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4 (gpt-4-0613)', 'value': 'gpt-4-0613'}, {'label': 'GPT 4 (gpt-4)', 'value': 'gpt-4'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo)', 'value': 'gpt-3.5-turbo'}, {'label': 'GPT 4 (gpt-4o-audio-preview-2025-06-03)', 'value': 'gpt-4o-audio-preview-2025-06-03'}, {'label': 'GPT 4 (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4 (gpt-4.1-nano)', 'value': 'gpt-4.1-nano'}, {'label': 'GPT 4 (gpt-4o-realtime-preview-2025-06-03)', 'value': 'gpt-4o-realtime-preview-2025-06-03'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo-instruct)', 'value': 'gpt-3.5-turbo-instruct'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo-instruct-0914)', 'value': 'gpt-3.5-turbo-instruct-0914'}, {'label': 'GPT 4 Preview (gpt-4-1106-preview)', 'value': 'gpt-4-1106-preview'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo-1106)', 'value': 'gpt-3.5-turbo-1106'}, {'label': 'GPT 4 (gpt-4-0125-preview)', 'value': 'gpt-4-0125-preview'}, {'label': 'GPT 4 (gpt-4-turbo-preview)', 'value': 'gpt-4-turbo-preview'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo-0125)', 'value': 'gpt-3.5-turbo-0125'}, {'label': 'GPT 4 (gpt-4-turbo)', 'value': 'gpt-4-turbo'}, {'label': 'GPT 4 (gpt-4-turbo-2024-04-09)', 'value': 'gpt-4-turbo-2024-04-09'}, {'label': 'GPT 4 (gpt-4o)', 'value': 'gpt-4o'}, {'label': 'GPT 4 (gpt-4o-2024-05-13)', 'value': 'gpt-4o-2024-05-13'}, {'label': 'GPT 4 (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}, {'label': 'GPT 4 (gpt-4o-mini)', 'value': 'gpt-4o-mini'}, {'label': 'GPT 4 (gpt-4o-2024-08-06)', 'value': 'gpt-4o-2024-08-06'}, {'label': 'GPT 4 (gpt-4o-realtime-preview-2024-10-01)', 'value': 'gpt-4o-realtime-preview-2024-10-01'}, {'label': 'GPT 4 (gpt-4o-audio-preview-2024-10-01)', 'value': 'gpt-4o-audio-preview-2024-10-01'}, {'label': 'GPT 4 (gpt-4o-audio-preview)', 'value': 'gpt-4o-audio-preview'}, {'label': 'GPT 4 (gpt-4o-realtime-preview)', 'value': 'gpt-4o-realtime-preview'}, {'label': 'GPT 4 (gpt-4o-realtime-preview-2024-12-17)', 'value': 'gpt-4o-realtime-preview-2024-12-17'}, {'label': 'GPT 4 (gpt-4o-audio-preview-2024-12-17)', 'value': 'gpt-4o-audio-preview-2024-12-17'}, {'label': 'GPT 4 (gpt-4o-mini-realtime-preview-2024-12-17)', 'value': 'gpt-4o-mini-realtime-preview-2024-12-17'}, {'label': 'GPT 4 (gpt-4o-mini-audio-preview-2024-12-17)', 'value': 'gpt-4o-mini-audio-preview-2024-12-17'}, {'label': 'GPT 4 (gpt-4o-mini-realtime-preview)', 'value': 'gpt-4o-mini-realtime-preview'}, {'label': 'GPT 4 (gpt-4o-mini-audio-preview)', 'value': 'gpt-4o-mini-audio-preview'}, {'label': 'GPT 4 (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4 (gpt-4.5-preview)', 'value': 'gpt-4.5-preview'}, {'label': 'GPT 4 (gpt-4.5-preview-2025-02-27)', 'value': 'gpt-4.5-preview-2025-02-27'}, {'label': 'GPT 4 (gpt-4o-search-preview-2025-03-11)', 'value': 'gpt-4o-search-preview-2025-03-11'}, {'label': 'GPT 4 (gpt-4o-search-preview)', 'value': 'gpt-4o-search-preview'}, {'label': 'GPT 4 (gpt-4o-mini-search-preview-2025-03-11)', 'value': 'gpt-4o-mini-search-preview-2025-03-11'}, {'label': 'GPT 4 (gpt-4o-mini-search-preview)', 'value': 'gpt-4o-mini-search-preview'}, {'label': 'GPT 4 (gpt-4o-transcribe)', 'value': 'gpt-4o-transcribe'}, {'label': 'GPT 4 (gpt-4o-mini-transcribe)', 'value': 'gpt-4o-mini-transcribe'}, {'label': 'GPT 4 (gpt-4o-mini-tts)', 'value': 'gpt-4o-mini-tts'}, {'label': 'GPT 4 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4 (gpt-4.1)', 'value': 'gpt-4.1'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini)', 'value': 'gpt-4.1-mini'}, {'label': 'GPT 3.5 Turbo (gpt-3.5-turbo-16k)', 'value': 'gpt-3.5-turbo-16k'}]
+2025-07-09 10:47:35,060 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 10:54:10,236 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:54:12,009 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 10:54:12,011 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:54:13,582 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 10:54:21,376 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 10:54:21,378 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:54:26,520 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:54:26,522 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:54:29,213 - gpt_fine_tuner - INFO - 可用模型(筛选后): ['gpt-4o-transcribe', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-tts', 'o3-mini-2025-01-31']
+2025-07-09 10:54:29,213 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4o (gpt-4o-transcribe)', 'value': 'gpt-4o-transcribe'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'O4 Mini (gpt-4o-mini-tts)', 'value': 'gpt-4o-mini-tts'}, {'label': 'O3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}]
+2025-07-09 10:54:29,214 - __main__ - INFO - 用户选择模型: GPT 4o (gpt-4o-transcribe) (gpt-4o-transcribe)
+2025-07-09 10:55:09,066 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:55:13,610 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 10:55:13,611 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:55:16,431 - gpt_fine_tuner - INFO - 可用模型(筛选后): ['gpt-4o-transcribe', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-tts', 'o3-mini-2025-01-31']
+2025-07-09 10:55:16,432 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4o (gpt-4o-transcribe)', 'value': 'gpt-4o-transcribe'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'O4 Mini (gpt-4o-mini-tts)', 'value': 'gpt-4o-mini-tts'}, {'label': 'O3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}]
+2025-07-09 10:55:16,433 - __main__ - INFO - 用户选择模型: GPT 4o (gpt-4o-transcribe) (gpt-4o-transcribe)
+2025-07-09 11:03:38,928 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:03:40,021 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:03:40,022 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:03:42,455 - gpt_fine_tuner - INFO - 可用模型(筛选后): []
+2025-07-09 11:03:42,455 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 11:03:42,456 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:08:20,758 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:08:22,657 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:08:22,658 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:08:25,230 - gpt_fine_tuner - INFO - 可用模型(筛选后): []
+2025-07-09 11:08:25,231 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 11:08:25,231 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:08:51,390 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:08:52,858 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:08:52,859 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:08:55,073 - gpt_fine_tuner - INFO - 可用模型(筛选后): []
+2025-07-09 11:08:55,073 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 11:08:55,074 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:09:27,366 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:09:28,772 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:09:28,773 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:09:31,403 - gpt_fine_tuner - INFO - 可用模型(筛选后): []
+2025-07-09 11:09:31,403 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 11:09:31,404 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:13:10,947 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:13:11,966 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:13:11,968 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:13:14,450 - gpt_fine_tuner - INFO - 所有可用模型: ['gpt-4-0613', 'gpt-4', 'gpt-3.5-turbo', 'gpt-4o-audio-preview-2025-06-03', 'gpt-4.1-nano-2025-04-14', 'gpt-4.1-nano', 'gpt-image-1', 'gpt-4o-realtime-preview-2025-06-03', 'davinci-002', 'babbage-002', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-instruct-0914', 'dall-e-3', 'dall-e-2', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'tts-1-hd', 'tts-1-1106', 'tts-1-hd-1106', 'text-embedding-3-small', 'text-embedding-3-large', 'gpt-4-0125-preview', 'gpt-4-turbo-preview', 'gpt-3.5-turbo-0125', 'gpt-4-turbo', 'gpt-4-turbo-2024-04-09', 'gpt-4o', 'gpt-4o-2024-05-13', 'gpt-4o-mini-2024-07-18', 'gpt-4o-mini', 'gpt-4o-2024-08-06', 'chatgpt-4o-latest', 'o1-preview-2024-09-12', 'o1-preview', 'o1-mini-2024-09-12', 'o1-mini', 'gpt-4o-realtime-preview-2024-10-01', 'gpt-4o-audio-preview-2024-10-01', 'gpt-4o-audio-preview', 'gpt-4o-realtime-preview', 'omni-moderation-latest', 'omni-moderation-2024-09-26', 'gpt-4o-realtime-preview-2024-12-17', 'gpt-4o-audio-preview-2024-12-17', 'gpt-4o-mini-realtime-preview-2024-12-17', 'gpt-4o-mini-audio-preview-2024-12-17', 'o1-2024-12-17', 'o1', 'gpt-4o-mini-realtime-preview', 'gpt-4o-mini-audio-preview', 'o3-mini', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.5-preview', 'gpt-4.5-preview-2025-02-27', 'gpt-4o-search-preview-2025-03-11', 'gpt-4o-search-preview', 'gpt-4o-mini-search-preview-2025-03-11', 'gpt-4o-mini-search-preview', 'gpt-4o-transcribe', 'gpt-4o-mini-transcribe', 'o1-pro-2025-03-19', 'o1-pro', 'gpt-4o-mini-tts', 'gpt-4.1-2025-04-14', 'gpt-4.1', 'gpt-4.1-mini-2025-04-14', 'gpt-4.1-mini', 'gpt-3.5-turbo-16k', 'tts-1', 'whisper-1', 'text-embedding-ada-002', 'ada:ft-anyhelper-2023-01-22-16-10-40', 'davinci:ft-anyhelper-2023-02-02-06-42-25', 'ada:ft-anyhelper-2023-01-22-16-13-21', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu']
+2025-07-09 11:13:14,451 - __main__ - INFO - UI模型下拉列表: [{'label': 'gpt-4-0613 (gpt-4-0613)', 'value': 'gpt-4-0613'}, {'label': 'gpt-4 (gpt-4)', 'value': 'gpt-4'}, {'label': 'gpt-3.5-turbo (gpt-3.5-turbo)', 'value': 'gpt-3.5-turbo'}, {'label': 'GPT 4o (gpt-4o-audio-preview-2025-06-03)', 'value': 'gpt-4o-audio-preview-2025-06-03'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano)', 'value': 'gpt-4.1-nano'}, {'label': 'gpt-image-1 (gpt-image-1)', 'value': 'gpt-image-1'}, {'label': 'GPT 4o (gpt-4o-realtime-preview-2025-06-03)', 'value': 'gpt-4o-realtime-preview-2025-06-03'}, {'label': 'davinci-002 (davinci-002)', 'value': 'davinci-002'}, {'label': 'babbage-002 (babbage-002)', 'value': 'babbage-002'}, {'label': 'gpt-3.5-turbo-instruct (gpt-3.5-turbo-instruct)', 'value': 'gpt-3.5-turbo-instruct'}, {'label': 'gpt-3.5-turbo-instruct-0914 (gpt-3.5-turbo-instruct-0914)', 'value': 'gpt-3.5-turbo-instruct-0914'}, {'label': 'dall-e-3 (dall-e-3)', 'value': 'dall-e-3'}, {'label': 'dall-e-2 (dall-e-2)', 'value': 'dall-e-2'}, {'label': 'GPT 4.1 (gpt-4-1106-preview)', 'value': 'gpt-4-1106-preview'}, {'label': 'gpt-3.5-turbo-1106 (gpt-3.5-turbo-1106)', 'value': 'gpt-3.5-turbo-1106'}, {'label': 'tts-1-hd (tts-1-hd)', 'value': 'tts-1-hd'}, {'label': 'tts-1-1106 (tts-1-1106)', 'value': 'tts-1-1106'}, {'label': 'tts-1-hd-1106 (tts-1-hd-1106)', 'value': 'tts-1-hd-1106'}, {'label': 'text-embedding-3-small (text-embedding-3-small)', 'value': 'text-embedding-3-small'}, {'label': 'text-embedding-3-large (text-embedding-3-large)', 'value': 'text-embedding-3-large'}, {'label': 'gpt-4-0125-preview (gpt-4-0125-preview)', 'value': 'gpt-4-0125-preview'}, {'label': 'gpt-4-turbo-preview (gpt-4-turbo-preview)', 'value': 'gpt-4-turbo-preview'}, {'label': 'gpt-3.5-turbo-0125 (gpt-3.5-turbo-0125)', 'value': 'gpt-3.5-turbo-0125'}, {'label': 'gpt-4-turbo (gpt-4-turbo)', 'value': 'gpt-4-turbo'}, {'label': 'gpt-4-turbo-2024-04-09 (gpt-4-turbo-2024-04-09)', 'value': 'gpt-4-turbo-2024-04-09'}, {'label': 'GPT 4o (gpt-4o)', 'value': 'gpt-4o'}, {'label': 'GPT 4o (gpt-4o-2024-05-13)', 'value': 'gpt-4o-2024-05-13'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}, {'label': 'GPT 4o Mini (gpt-4o-mini)', 'value': 'gpt-4o-mini'}, {'label': 'GPT 4o (gpt-4o-2024-08-06)', 'value': 'gpt-4o-2024-08-06'}, {'label': 'GPT 4o (chatgpt-4o-latest)', 'value': 'chatgpt-4o-latest'}, {'label': 'o1-preview-2024-09-12 (o1-preview-2024-09-12)', 'value': 'o1-preview-2024-09-12'}, {'label': 'o1-preview (o1-preview)', 'value': 'o1-preview'}, {'label': 'o1-mini-2024-09-12 (o1-mini-2024-09-12)', 'value': 'o1-mini-2024-09-12'}, {'label': 'o1-mini (o1-mini)', 'value': 'o1-mini'}, {'label': 'GPT 4o (gpt-4o-realtime-preview-2024-10-01)', 'value': 'gpt-4o-realtime-preview-2024-10-01'}, {'label': 'GPT 4o (gpt-4o-audio-preview-2024-10-01)', 'value': 'gpt-4o-audio-preview-2024-10-01'}, {'label': 'GPT 4o (gpt-4o-audio-preview)', 'value': 'gpt-4o-audio-preview'}, {'label': 'GPT 4o (gpt-4o-realtime-preview)', 'value': 'gpt-4o-realtime-preview'}, {'label': 'omni-moderation-latest (omni-moderation-latest)', 'value': 'omni-moderation-latest'}, {'label': 'omni-moderation-2024-09-26 (omni-moderation-2024-09-26)', 'value': 'omni-moderation-2024-09-26'}, {'label': 'GPT 4o (gpt-4o-realtime-preview-2024-12-17)', 'value': 'gpt-4o-realtime-preview-2024-12-17'}, {'label': 'GPT 4o (gpt-4o-audio-preview-2024-12-17)', 'value': 'gpt-4o-audio-preview-2024-12-17'}, {'label': 'GPT 4o Mini (gpt-4o-mini-realtime-preview-2024-12-17)', 'value': 'gpt-4o-mini-realtime-preview-2024-12-17'}, {'label': 'GPT 4o Mini (gpt-4o-mini-audio-preview-2024-12-17)', 'value': 'gpt-4o-mini-audio-preview-2024-12-17'}, {'label': 'o1-2024-12-17 (o1-2024-12-17)', 'value': 'o1-2024-12-17'}, {'label': 'o1 (o1)', 'value': 'o1'}, {'label': 'GPT 4o Mini (gpt-4o-mini-realtime-preview)', 'value': 'gpt-4o-mini-realtime-preview'}, {'label': 'GPT 4o Mini (gpt-4o-mini-audio-preview)', 'value': 'gpt-4o-mini-audio-preview'}, {'label': 'o3 Mini (o3-mini)', 'value': 'o3-mini'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'gpt-4.5-preview (gpt-4.5-preview)', 'value': 'gpt-4.5-preview'}, {'label': 'gpt-4.5-preview-2025-02-27 (gpt-4.5-preview-2025-02-27)', 'value': 'gpt-4.5-preview-2025-02-27'}, {'label': 'GPT 4o (gpt-4o-search-preview-2025-03-11)', 'value': 'gpt-4o-search-preview-2025-03-11'}, {'label': 'GPT 4o (gpt-4o-search-preview)', 'value': 'gpt-4o-search-preview'}, {'label': 'GPT 4o Mini (gpt-4o-mini-search-preview-2025-03-11)', 'value': 'gpt-4o-mini-search-preview-2025-03-11'}, {'label': 'GPT 4o Mini (gpt-4o-mini-search-preview)', 'value': 'gpt-4o-mini-search-preview'}, {'label': 'GPT 4o (gpt-4o-transcribe)', 'value': 'gpt-4o-transcribe'}, {'label': 'GPT 4o Mini (gpt-4o-mini-transcribe)', 'value': 'gpt-4o-mini-transcribe'}, {'label': 'o1-pro-2025-03-19 (o1-pro-2025-03-19)', 'value': 'o1-pro-2025-03-19'}, {'label': 'o1-pro (o1-pro)', 'value': 'o1-pro'}, {'label': 'GPT 4o Mini (gpt-4o-mini-tts)', 'value': 'gpt-4o-mini-tts'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4.1 (gpt-4.1)', 'value': 'gpt-4.1'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini)', 'value': 'gpt-4.1-mini'}, {'label': 'gpt-3.5-turbo-16k (gpt-3.5-turbo-16k)', 'value': 'gpt-3.5-turbo-16k'}, {'label': 'tts-1 (tts-1)', 'value': 'tts-1'}, {'label': 'whisper-1 (whisper-1)', 'value': 'whisper-1'}, {'label': 'text-embedding-ada-002 (text-embedding-ada-002)', 'value': 'text-embedding-ada-002'}, {'label': 'ada:ft-anyhelper-2023-01-22-16-10-40 (ada:ft-anyhelper-2023-01-22-16-10-40)', 'value': 'ada:ft-anyhelper-2023-01-22-16-10-40'}, {'label': 'davinci:ft-anyhelper-2023-02-02-06-42-25 (davinci:ft-anyhelper-2023-02-02-06-42-25)', 'value': 'davinci:ft-anyhelper-2023-02-02-06-42-25'}, {'label': 'ada:ft-anyhelper-2023-01-22-16-13-21 (ada:ft-anyhelper-2023-01-22-16-13-21)', 'value': 'ada:ft-anyhelper-2023-01-22-16-13-21'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm'}, {'label': 'GPT 4o Mini (ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66)', 'value': 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114'}, {'label': 'GPT 4.1 Mini (ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu)', 'value': 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu'}]
+2025-07-09 11:13:14,454 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:20:09,863 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:20:12,495 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:20:12,497 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:20:15,012 - gpt_fine_tuner - INFO - 可用模型(按指定基名筛选): ['gpt-4o-transcribe', 'gpt-4.1-nano-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:20:15,012 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4o (gpt-4o-transcribe)', 'value': 'gpt-4o-transcribe'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}]
+2025-07-09 11:20:15,013 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:21:18,630 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:21:19,689 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:21:19,691 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:21:22,036 - gpt_fine_tuner - INFO - 可用模型(按指定基名和最新日期筛选): ['gpt-4o-audio-preview-2025-06-03', 'gpt-4.1-nano-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:21:22,037 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4o (gpt-4o-audio-preview-2025-06-03)', 'value': 'gpt-4o-audio-preview-2025-06-03'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}]
+2025-07-09 11:21:22,038 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:26:03,049 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:26:09,578 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:26:09,580 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:26:12,497 - gpt_fine_tuner - INFO - 可用模型(严格按指定模式和最新日期筛选): ['gpt-4.1-nano-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:26:12,497 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}]
+2025-07-09 11:26:12,498 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:30:21,102 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:30:22,681 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:30:22,683 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:30:25,569 - gpt_fine_tuner - INFO - 可用模型(严格按指定模式和最新日期筛选): ['gpt-4.1-nano-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:30:25,569 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}]
+2025-07-09 11:30:25,570 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:34:07,644 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:34:17,075 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:34:18,248 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:34:18,250 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:34:20,413 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:34:20,413 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:34:20,414 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:38:35,271 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:38:38,005 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:38:38,006 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:38:40,588 - gpt_fine_tuner - INFO - models: ['gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:38:40,588 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:38:40,588 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:38:40,589 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:41:09,303 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:41:10,169 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:41:10,171 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:41:12,548 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:41:12,550 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:41:13,887 - gpt_fine_tuner - INFO - models: [Model(id='gpt-4-0613', created=1686588896, object='model', owned_by='openai'), Model(id='gpt-4', created=1687882411, object='model', owned_by='openai'), Model(id='gpt-3.5-turbo', created=1677610602, object='model', owned_by='openai'), Model(id='gpt-4o-audio-preview-2025-06-03', created=1748908498, object='model', owned_by='system'), Model(id='gpt-4.1-nano-2025-04-14', created=1744321025, object='model', owned_by='system'), Model(id='gpt-4.1-nano', created=1744321707, object='model', owned_by='system'), Model(id='gpt-image-1', created=1745517030, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2025-06-03', created=1748907838, object='model', owned_by='system'), Model(id='davinci-002', created=1692634301, object='model', owned_by='system'), Model(id='babbage-002', created=1692634615, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-instruct', created=1692901427, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-instruct-0914', created=1694122472, object='model', owned_by='system'), Model(id='dall-e-3', created=1698785189, object='model', owned_by='system'), Model(id='dall-e-2', created=1698798177, object='model', owned_by='system'), Model(id='gpt-4-1106-preview', created=1698957206, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-1106', created=1698959748, object='model', owned_by='system'), Model(id='tts-1-hd', created=1699046015, object='model', owned_by='system'), Model(id='tts-1-1106', created=1699053241, object='model', owned_by='system'), Model(id='tts-1-hd-1106', created=1699053533, object='model', owned_by='system'), Model(id='text-embedding-3-small', created=1705948997, object='model', owned_by='system'), Model(id='text-embedding-3-large', created=1705953180, object='model', owned_by='system'), Model(id='gpt-4-0125-preview', created=1706037612, object='model', owned_by='system'), Model(id='gpt-4-turbo-preview', created=1706037777, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-0125', created=1706048358, object='model', owned_by='system'), Model(id='gpt-4-turbo', created=1712361441, object='model', owned_by='system'), Model(id='gpt-4-turbo-2024-04-09', created=1712601677, object='model', owned_by='system'), Model(id='gpt-4o', created=1715367049, object='model', owned_by='system'), Model(id='gpt-4o-2024-05-13', created=1715368132, object='model', owned_by='system'), Model(id='gpt-4o-mini-2024-07-18', created=1721172717, object='model', owned_by='system'), Model(id='gpt-4o-mini', created=1721172741, object='model', owned_by='system'), Model(id='gpt-4o-2024-08-06', created=1722814719, object='model', owned_by='system'), Model(id='chatgpt-4o-latest', created=1723515131, object='model', owned_by='system'), Model(id='o1-preview-2024-09-12', created=1725648865, object='model', owned_by='system'), Model(id='o1-preview', created=1725648897, object='model', owned_by='system'), Model(id='o1-mini-2024-09-12', created=1725648979, object='model', owned_by='system'), Model(id='o1-mini', created=1725649008, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2024-10-01', created=1727131766, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview-2024-10-01', created=1727389042, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview', created=1727460443, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview', created=1727659998, object='model', owned_by='system'), Model(id='omni-moderation-latest', created=1731689265, object='model', owned_by='system'), Model(id='omni-moderation-2024-09-26', created=1732734466, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2024-12-17', created=1733945430, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview-2024-12-17', created=1734034239, object='model', owned_by='system'), Model(id='gpt-4o-mini-realtime-preview-2024-12-17', created=1734112601, object='model', owned_by='system'), Model(id='gpt-4o-mini-audio-preview-2024-12-17', created=1734115920, object='model', owned_by='system'), Model(id='o1-2024-12-17', created=1734326976, object='model', owned_by='system'), Model(id='o1', created=1734375816, object='model', owned_by='system'), Model(id='gpt-4o-mini-realtime-preview', created=1734387380, object='model', owned_by='system'), Model(id='gpt-4o-mini-audio-preview', created=1734387424, object='model', owned_by='system'), Model(id='o3-mini', created=1737146383, object='model', owned_by='system'), Model(id='o3-mini-2025-01-31', created=1738010200, object='model', owned_by='system'), Model(id='gpt-4o-2024-11-20', created=1739331543, object='model', owned_by='system'), Model(id='gpt-4.5-preview', created=1740623059, object='model', owned_by='system'), Model(id='gpt-4.5-preview-2025-02-27', created=1740623304, object='model', owned_by='system'), Model(id='gpt-4o-search-preview-2025-03-11', created=1741388170, object='model', owned_by='system'), Model(id='gpt-4o-search-preview', created=1741388720, object='model', owned_by='system'), Model(id='gpt-4o-mini-search-preview-2025-03-11', created=1741390858, object='model', owned_by='system'), Model(id='gpt-4o-mini-search-preview', created=1741391161, object='model', owned_by='system'), Model(id='gpt-4o-transcribe', created=1742068463, object='model', owned_by='system'), Model(id='gpt-4o-mini-transcribe', created=1742068596, object='model', owned_by='system'), Model(id='o1-pro-2025-03-19', created=1742251504, object='model', owned_by='system'), Model(id='o1-pro', created=1742251791, object='model', owned_by='system'), Model(id='gpt-4o-mini-tts', created=1742403959, object='model', owned_by='system'), Model(id='gpt-4.1-2025-04-14', created=1744315746, object='model', owned_by='system'), Model(id='gpt-4.1', created=1744316542, object='model', owned_by='system'), Model(id='gpt-4.1-mini-2025-04-14', created=1744317547, object='model', owned_by='system'), Model(id='gpt-4.1-mini', created=1744318173, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-16k', created=1683758102, object='model', owned_by='openai-internal'), Model(id='tts-1', created=1681940951, object='model', owned_by='openai-internal'), Model(id='whisper-1', created=1677532384, object='model', owned_by='openai-internal'), Model(id='text-embedding-ada-002', created=1671217299, object='model', owned_by='openai-internal'), Model(id='ada:ft-anyhelper-2023-01-22-16-10-40', created=1674403840, object='model', owned_by='anyhelper'), Model(id='davinci:ft-anyhelper-2023-02-02-06-42-25', created=1675320146, object='model', owned_by='anyhelper'), Model(id='ada:ft-anyhelper-2023-01-22-16-13-21', created=1674404001, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX', created=1751859403, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58', created=1751606621, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm', created=1751606622, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66', created=1751609378, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9', created=1751611397, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW', created=1751621005, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57', created=1751622645, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv', created=1751622646, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57', created=1751625147, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114', created=1751625147, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu', created=1751625147, object='model', owned_by='anyhelper')]
+2025-07-09 11:41:13,888 - gpt_fine_tuner - INFO - models: ['gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:41:13,888 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:41:13,888 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:41:15,009 - gpt_fine_tuner - INFO - models: [Model(id='gpt-4-0613', created=1686588896, object='model', owned_by='openai'), Model(id='gpt-4', created=1687882411, object='model', owned_by='openai'), Model(id='gpt-3.5-turbo', created=1677610602, object='model', owned_by='openai'), Model(id='gpt-4o-audio-preview-2025-06-03', created=1748908498, object='model', owned_by='system'), Model(id='gpt-4.1-nano-2025-04-14', created=1744321025, object='model', owned_by='system'), Model(id='gpt-4.1-nano', created=1744321707, object='model', owned_by='system'), Model(id='gpt-image-1', created=1745517030, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2025-06-03', created=1748907838, object='model', owned_by='system'), Model(id='davinci-002', created=1692634301, object='model', owned_by='system'), Model(id='babbage-002', created=1692634615, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-instruct', created=1692901427, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-instruct-0914', created=1694122472, object='model', owned_by='system'), Model(id='dall-e-3', created=1698785189, object='model', owned_by='system'), Model(id='dall-e-2', created=1698798177, object='model', owned_by='system'), Model(id='gpt-4-1106-preview', created=1698957206, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-1106', created=1698959748, object='model', owned_by='system'), Model(id='tts-1-hd', created=1699046015, object='model', owned_by='system'), Model(id='tts-1-1106', created=1699053241, object='model', owned_by='system'), Model(id='tts-1-hd-1106', created=1699053533, object='model', owned_by='system'), Model(id='text-embedding-3-small', created=1705948997, object='model', owned_by='system'), Model(id='text-embedding-3-large', created=1705953180, object='model', owned_by='system'), Model(id='gpt-4-0125-preview', created=1706037612, object='model', owned_by='system'), Model(id='gpt-4-turbo-preview', created=1706037777, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-0125', created=1706048358, object='model', owned_by='system'), Model(id='gpt-4-turbo', created=1712361441, object='model', owned_by='system'), Model(id='gpt-4-turbo-2024-04-09', created=1712601677, object='model', owned_by='system'), Model(id='gpt-4o', created=1715367049, object='model', owned_by='system'), Model(id='gpt-4o-2024-05-13', created=1715368132, object='model', owned_by='system'), Model(id='gpt-4o-mini-2024-07-18', created=1721172717, object='model', owned_by='system'), Model(id='gpt-4o-mini', created=1721172741, object='model', owned_by='system'), Model(id='gpt-4o-2024-08-06', created=1722814719, object='model', owned_by='system'), Model(id='chatgpt-4o-latest', created=1723515131, object='model', owned_by='system'), Model(id='o1-preview-2024-09-12', created=1725648865, object='model', owned_by='system'), Model(id='o1-preview', created=1725648897, object='model', owned_by='system'), Model(id='o1-mini-2024-09-12', created=1725648979, object='model', owned_by='system'), Model(id='o1-mini', created=1725649008, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2024-10-01', created=1727131766, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview-2024-10-01', created=1727389042, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview', created=1727460443, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview', created=1727659998, object='model', owned_by='system'), Model(id='omni-moderation-latest', created=1731689265, object='model', owned_by='system'), Model(id='omni-moderation-2024-09-26', created=1732734466, object='model', owned_by='system'), Model(id='gpt-4o-realtime-preview-2024-12-17', created=1733945430, object='model', owned_by='system'), Model(id='gpt-4o-audio-preview-2024-12-17', created=1734034239, object='model', owned_by='system'), Model(id='gpt-4o-mini-realtime-preview-2024-12-17', created=1734112601, object='model', owned_by='system'), Model(id='gpt-4o-mini-audio-preview-2024-12-17', created=1734115920, object='model', owned_by='system'), Model(id='o1-2024-12-17', created=1734326976, object='model', owned_by='system'), Model(id='o1', created=1734375816, object='model', owned_by='system'), Model(id='gpt-4o-mini-realtime-preview', created=1734387380, object='model', owned_by='system'), Model(id='gpt-4o-mini-audio-preview', created=1734387424, object='model', owned_by='system'), Model(id='o3-mini', created=1737146383, object='model', owned_by='system'), Model(id='o3-mini-2025-01-31', created=1738010200, object='model', owned_by='system'), Model(id='gpt-4o-2024-11-20', created=1739331543, object='model', owned_by='system'), Model(id='gpt-4.5-preview', created=1740623059, object='model', owned_by='system'), Model(id='gpt-4.5-preview-2025-02-27', created=1740623304, object='model', owned_by='system'), Model(id='gpt-4o-search-preview-2025-03-11', created=1741388170, object='model', owned_by='system'), Model(id='gpt-4o-search-preview', created=1741388720, object='model', owned_by='system'), Model(id='gpt-4o-mini-search-preview-2025-03-11', created=1741390858, object='model', owned_by='system'), Model(id='gpt-4o-mini-search-preview', created=1741391161, object='model', owned_by='system'), Model(id='gpt-4o-transcribe', created=1742068463, object='model', owned_by='system'), Model(id='gpt-4o-mini-transcribe', created=1742068596, object='model', owned_by='system'), Model(id='o1-pro-2025-03-19', created=1742251504, object='model', owned_by='system'), Model(id='o1-pro', created=1742251791, object='model', owned_by='system'), Model(id='gpt-4o-mini-tts', created=1742403959, object='model', owned_by='system'), Model(id='gpt-4.1-2025-04-14', created=1744315746, object='model', owned_by='system'), Model(id='gpt-4.1', created=1744316542, object='model', owned_by='system'), Model(id='gpt-4.1-mini-2025-04-14', created=1744317547, object='model', owned_by='system'), Model(id='gpt-4.1-mini', created=1744318173, object='model', owned_by='system'), Model(id='gpt-3.5-turbo-16k', created=1683758102, object='model', owned_by='openai-internal'), Model(id='tts-1', created=1681940951, object='model', owned_by='openai-internal'), Model(id='whisper-1', created=1677532384, object='model', owned_by='openai-internal'), Model(id='text-embedding-ada-002', created=1671217299, object='model', owned_by='openai-internal'), Model(id='ada:ft-anyhelper-2023-01-22-16-10-40', created=1674403840, object='model', owned_by='anyhelper'), Model(id='davinci:ft-anyhelper-2023-02-02-06-42-25', created=1675320146, object='model', owned_by='anyhelper'), Model(id='ada:ft-anyhelper-2023-01-22-16-13-21', created=1674404001, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96', created=1723437118, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX', created=1751859403, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58', created=1751606621, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm', created=1751606622, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66', created=1751609378, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9', created=1751611397, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW', created=1751621005, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57', created=1751622645, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv', created=1751622646, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57', created=1751625147, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114', created=1751625147, object='model', owned_by='anyhelper'), Model(id='ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu', created=1751625147, object='model', owned_by='anyhelper')]
+2025-07-09 11:41:15,010 - gpt_fine_tuner - INFO - models: ['gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:41:15,011 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:41:15,011 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:41:15,012 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:42:42,750 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:42:44,033 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:42:44,034 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:42:46,666 - gpt_fine_tuner - INFO - models: ['gpt-4-0613', 'gpt-4', 'gpt-3.5-turbo', 'gpt-4o-audio-preview-2025-06-03', 'gpt-4.1-nano-2025-04-14', 'gpt-4.1-nano', 'gpt-image-1', 'gpt-4o-realtime-preview-2025-06-03', 'davinci-002', 'babbage-002', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-instruct-0914', 'dall-e-3', 'dall-e-2', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'tts-1-hd', 'tts-1-1106', 'tts-1-hd-1106', 'text-embedding-3-small', 'text-embedding-3-large', 'gpt-4-0125-preview', 'gpt-4-turbo-preview', 'gpt-3.5-turbo-0125', 'gpt-4-turbo', 'gpt-4-turbo-2024-04-09', 'gpt-4o', 'gpt-4o-2024-05-13', 'gpt-4o-mini-2024-07-18', 'gpt-4o-mini', 'gpt-4o-2024-08-06', 'chatgpt-4o-latest', 'o1-preview-2024-09-12', 'o1-preview', 'o1-mini-2024-09-12', 'o1-mini', 'gpt-4o-realtime-preview-2024-10-01', 'gpt-4o-audio-preview-2024-10-01', 'gpt-4o-audio-preview', 'gpt-4o-realtime-preview', 'omni-moderation-latest', 'omni-moderation-2024-09-26', 'gpt-4o-realtime-preview-2024-12-17', 'gpt-4o-audio-preview-2024-12-17', 'gpt-4o-mini-realtime-preview-2024-12-17', 'gpt-4o-mini-audio-preview-2024-12-17', 'o1-2024-12-17', 'o1', 'gpt-4o-mini-realtime-preview', 'gpt-4o-mini-audio-preview', 'o3-mini', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.5-preview', 'gpt-4.5-preview-2025-02-27', 'gpt-4o-search-preview-2025-03-11', 'gpt-4o-search-preview', 'gpt-4o-mini-search-preview-2025-03-11', 'gpt-4o-mini-search-preview', 'gpt-4o-transcribe', 'gpt-4o-mini-transcribe', 'o1-pro-2025-03-19', 'o1-pro', 'gpt-4o-mini-tts', 'gpt-4.1-2025-04-14', 'gpt-4.1', 'gpt-4.1-mini-2025-04-14', 'gpt-4.1-mini', 'gpt-3.5-turbo-16k', 'tts-1', 'whisper-1', 'text-embedding-ada-002', 'ada:ft-anyhelper-2023-01-22-16-10-40', 'davinci:ft-anyhelper-2023-02-02-06-42-25', 'ada:ft-anyhelper-2023-01-22-16-13-21', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu']
+2025-07-09 11:42:46,667 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:42:46,667 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:42:46,668 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:48:59,659 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:49:01,435 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:49:01,438 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:49:05,135 - gpt_fine_tuner - INFO - models: ['gpt-4-0613', 'gpt-4', 'gpt-3.5-turbo', 'gpt-4o-audio-preview-2025-06-03', 'gpt-4.1-nano-2025-04-14', 'gpt-4.1-nano', 'gpt-image-1', 'gpt-4o-realtime-preview-2025-06-03', 'davinci-002', 'babbage-002', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-instruct-0914', 'dall-e-3', 'dall-e-2', 'gpt-4-1106-preview', 'gpt-3.5-turbo-1106', 'tts-1-hd', 'tts-1-1106', 'tts-1-hd-1106', 'text-embedding-3-small', 'text-embedding-3-large', 'gpt-4-0125-preview', 'gpt-4-turbo-preview', 'gpt-3.5-turbo-0125', 'gpt-4-turbo', 'gpt-4-turbo-2024-04-09', 'gpt-4o', 'gpt-4o-2024-05-13', 'gpt-4o-mini-2024-07-18', 'gpt-4o-mini', 'gpt-4o-2024-08-06', 'chatgpt-4o-latest', 'o1-preview-2024-09-12', 'o1-preview', 'o1-mini-2024-09-12', 'o1-mini', 'gpt-4o-realtime-preview-2024-10-01', 'gpt-4o-audio-preview-2024-10-01', 'gpt-4o-audio-preview', 'gpt-4o-realtime-preview', 'omni-moderation-latest', 'omni-moderation-2024-09-26', 'gpt-4o-realtime-preview-2024-12-17', 'gpt-4o-audio-preview-2024-12-17', 'gpt-4o-mini-realtime-preview-2024-12-17', 'gpt-4o-mini-audio-preview-2024-12-17', 'o1-2024-12-17', 'o1', 'gpt-4o-mini-realtime-preview', 'gpt-4o-mini-audio-preview', 'o3-mini', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.5-preview', 'gpt-4.5-preview-2025-02-27', 'gpt-4o-search-preview-2025-03-11', 'gpt-4o-search-preview', 'gpt-4o-mini-search-preview-2025-03-11', 'gpt-4o-mini-search-preview', 'gpt-4o-transcribe', 'gpt-4o-mini-transcribe', 'o1-pro-2025-03-19', 'o1-pro', 'gpt-4o-mini-tts', 'gpt-4.1-2025-04-14', 'gpt-4.1', 'gpt-4.1-mini-2025-04-14', 'gpt-4.1-mini', 'gpt-3.5-turbo-16k', 'tts-1', 'whisper-1', 'text-embedding-ada-002', 'ada:ft-anyhelper-2023-01-22-16-10-40', 'davinci:ft-anyhelper-2023-02-02-06-42-25', 'ada:ft-anyhelper-2023-01-22-16-13-21', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0oe79', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0okfm:ckpt-step-48', 'ft:gpt-4o-mini-2024-07-18:anyhelper::9vH0ocDT:ckpt-step-96', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BqWwlvgX', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBd5lZ:ckpt-step-58', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTBdYXm', 'ft:gpt-4o-mini-2024-07-18:anyhelper::BpTu5D66', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpUQf8f9', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpWvcsoW', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5JHD:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpXM5ihv', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RSdN:ckpt-step-57', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RYgB:ckpt-step-114', 'ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu']
+2025-07-09 11:49:05,136 - gpt_fine_tuner - INFO - models: ['gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18', 'o3-mini-2025-01-31', 'gpt-4o-2024-11-20', 'gpt-4.1-2025-04-14', 'gpt-4.1-mini-2025-04-14']
+2025-07-09 11:49:05,136 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 11:49:05,137 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:49:05,137 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:49:05,138 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 11:49:57,757 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:49:59,834 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 11:49:59,838 - __main__ - INFO - local_data.json loaded.
+2025-07-09 11:50:08,880 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 11:50:08,881 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 11:50:08,881 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 11:50:08,883 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 12:00:00,238 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 12:00:00,243 - __main__ - INFO - local_data.json loaded.
+2025-07-09 12:00:06,277 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 12:00:16,832 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 12:00:16,835 - __main__ - INFO - local_data.json loaded.
+2025-07-09 12:00:30,324 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 12:00:30,326 - __main__ - INFO - local_data.json loaded.
+2025-07-09 12:00:31,709 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 12:00:31,713 - __main__ - INFO - local_data.json loaded.
+2025-07-09 12:00:32,979 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 12:00:32,984 - __main__ - INFO - local_data.json loaded.
+2025-07-09 12:00:37,071 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 12:00:37,072 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 12:00:37,072 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 12:00:37,074 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 12:01:38,270 - __main__ - INFO - 用户切换到页面: Test Model (tbd)
+2025-07-09 12:01:38,272 - __main__ - INFO - 用户访问了未实现页面: Test Model (tbd)
+2025-07-09 13:11:51,714 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:37:18,287 - __main__ - INFO - 用户切换到页面: Test Model (tbd)
+2025-07-09 14:37:18,289 - __main__ - INFO - 用户访问了未实现页面: Test Model (tbd)
+2025-07-09 14:37:19,554 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 14:37:19,556 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:37:36,526 - gpt_fine_tuner - ERROR - 获取模型列表失败: Request timed out.
+2025-07-09 14:37:36,526 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 14:37:36,527 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 14:40:35,873 - __main__ - INFO - 用户切换到页面: Test Model (tbd)
+2025-07-09 14:40:35,874 - __main__ - INFO - 用户访问了未实现页面: Test Model (tbd)
+2025-07-09 14:40:37,395 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 14:40:37,397 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:40:38,701 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 14:40:38,702 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:41:06,885 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:41:09,121 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 14:41:09,122 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:41:26,556 - gpt_fine_tuner - ERROR - 获取模型列表失败: Request timed out.
+2025-07-09 14:41:26,557 - __main__ - WARNING - 未能从OpenAI获取模型列表，使用静态列表。
+2025-07-09 14:41:26,558 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 14:59:41,746 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:44,250 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 14:59:44,250 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 14:59:44,251 - __main__ - INFO - local_data.json updated.
+2025-07-09 14:59:44,251 - __main__ - INFO - 已缓存可用模型: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 14:59:44,262 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:45,553 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 14:59:45,555 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:45,557 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:47,248 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 14:59:47,250 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:48,699 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 14:59:48,701 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:48,704 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:49,877 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 14:59:49,879 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:49,880 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:50,910 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 14:59:50,912 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:52,433 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 14:59:52,434 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:52,435 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:53,698 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 14:59:53,700 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:54,246 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 14:59:54,247 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:54,249 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:55,370 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 14:59:55,372 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:56,157 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 14:59:56,159 - __main__ - INFO - local_data.json loaded.
+2025-07-09 14:59:56,160 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:03,062 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:00:03,065 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:04,919 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:00:04,921 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:04,922 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:09,133 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:00:09,134 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:10,753 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:00:10,755 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:10,756 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:16,292 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:00:16,293 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:16,295 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:17,760 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:00:17,761 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:17,763 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:18,775 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 15:00:18,775 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 15:00:18,775 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 15:00:20,021 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 15:00:20,021 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 15:00:20,023 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 15:00:20,024 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:00:21,972 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:00:21,973 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:21,974 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:23,506 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:00:23,508 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:23,509 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:00:25,862 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 15:00:25,862 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 15:00:25,862 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 15:00:25,863 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:02:42,630 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:02:42,632 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:02:42,633 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:02:43,195 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:02:43,196 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:02:43,197 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:02:45,510 - gpt_fine_tuner - WARNING - 以下模型在OpenAI返回的列表中缺失: ['o4-mini-2025-04-16', 'o3-2025-04-16', 'o3-pro-2025-06-10']
+2025-07-09 15:02:45,511 - gpt_fine_tuner - INFO - 可用模型: ['gpt-4.1-mini-2025-04-14', 'o3-mini-2025-01-31', 'gpt-4.1-2025-04-14', 'gpt-4o-2024-11-20', 'gpt-4.1-nano-2025-04-14', 'gpt-4o-mini-2024-07-18']
+2025-07-09 15:02:45,511 - __main__ - INFO - UI模型下拉列表: [{'label': 'GPT 4.1 Mini (gpt-4.1-mini-2025-04-14)', 'value': 'gpt-4.1-mini-2025-04-14'}, {'label': 'o3 Mini (o3-mini-2025-01-31)', 'value': 'o3-mini-2025-01-31'}, {'label': 'GPT 4.1 (gpt-4.1-2025-04-14)', 'value': 'gpt-4.1-2025-04-14'}, {'label': 'GPT 4o (gpt-4o-2024-11-20)', 'value': 'gpt-4o-2024-11-20'}, {'label': 'GPT 4.1 Nano (gpt-4.1-nano-2025-04-14)', 'value': 'gpt-4.1-nano-2025-04-14'}, {'label': 'GPT 4o Mini (gpt-4o-mini-2024-07-18)', 'value': 'gpt-4o-mini-2024-07-18'}]
+2025-07-09 15:02:45,514 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:09:16,571 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:23,954 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:09:23,956 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:23,957 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:09:25,358 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:09:25,360 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:26,258 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:09:26,259 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:26,260 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:09:27,870 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:09:27,873 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:28,431 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:09:31,465 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:09:31,467 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:36,250 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:09:36,251 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:09:36,252 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:10:37,540 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:10:37,543 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:11:30,552 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:12:01,928 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:13:06,489 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:13:06,492 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:13:06,493 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:13:08,762 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:13:08,764 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:24,328 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:24,893 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:14:24,895 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:26,619 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:27,041 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:14:27,043 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:30,616 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:31,139 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:32,321 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:14:32,325 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:32,770 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:14:32,773 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:34,175 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:35,509 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:14:35,512 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:14:36,223 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:14:37,483 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:14:37,488 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:15:25,441 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:15:25,443 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:15:27,894 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:15:29,381 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:15:29,383 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:25:16,572 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:25:24,032 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:25:24,033 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:25:28,263 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:25:29,015 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:25:29,017 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:25:31,087 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:25:32,255 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:25:32,257 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:25:35,980 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:25:37,360 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:25:37,362 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:08,775 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:08,777 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:08,778 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:10,601 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:27:10,603 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:12,478 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:27:12,481 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:16,182 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-09 15:27:18,635 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:27:18,637 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:21,983 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:21,985 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:21,985 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:22,925 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:22,927 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:22,928 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:25,401 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 15:27:25,403 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:25,858 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:25,859 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:25,860 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:26,879 - __main__ - INFO - 用户切换到页面: Test Model (tbd)
+2025-07-09 15:27:26,880 - __main__ - INFO - 用户访问了未实现页面: Test Model (tbd)
+2025-07-09 15:27:28,139 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:28,141 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:28,142 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:48,164 - __main__ - INFO - 用户切换到页面: Home
+2025-07-09 15:27:48,167 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:49,024 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:49,026 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:49,027 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 15:27:49,983 - __main__ - INFO - 用户切换到页面: Test Model (tbd)
+2025-07-09 15:27:49,983 - __main__ - INFO - 用户访问了未实现页面: Test Model (tbd)
+2025-07-09 15:27:50,947 - __main__ - INFO - 用户切换到页面: Create Fine-Tuning Job
+2025-07-09 15:27:50,949 - __main__ - INFO - local_data.json loaded.
+2025-07-09 15:27:50,950 - __main__ - INFO - 用户选择模型: GPT 4.1 Mini (gpt-4.1-mini-2025-04-14) (gpt-4.1-mini-2025-04-14)
+2025-07-09 16:06:40,965 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:06:45,125 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:06:45,127 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:08:23,848 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:08:44,162 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:10:01,594 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:10:25,908 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:10:25,984 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:10:26,663 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:10:29,361 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:10:29,366 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:10:29,366 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:13:59,141 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:14:01,113 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:14:01,114 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:14:07,331 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:14:08,027 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:14:10,708 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:14:10,710 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:14:10,710 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:15:09,198 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:10,532 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:15:10,534 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:12,042 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:12,776 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:15:14,531 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:15:14,533 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:15:14,533 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:15:42,755 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:44,926 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:15:44,927 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:45,951 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:15:46,646 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:15:48,968 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:15:48,971 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:15:48,971 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:16:19,436 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:16:23,995 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:16:24,909 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:16:27,142 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:16:27,146 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:16:27,146 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:16:33,560 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:16:35,389 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:16:36,298 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:16:38,135 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:16:38,136 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:16:38,137 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:20:11,686 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:20:13,145 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:20:13,147 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:20:14,377 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:20:15,381 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:20:17,871 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:20:17,873 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:20:17,873 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:21:40,390 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:21:42,365 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:21:42,366 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:21:43,412 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:21:44,093 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:21:47,999 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:21:48,002 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:21:48,002 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:22:00,033 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:22:01,149 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:22:01,151 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:22:02,478 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:22:03,164 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:22:05,394 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:22:05,396 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:22:05,396 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:23:37,703 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:23:38,994 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:23:38,995 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:23:39,973 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:23:40,897 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:23:42,901 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:23:42,904 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:23:42,904 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:24:15,406 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:24:17,981 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:24:17,982 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:24:18,844 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:24:19,554 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:24:21,675 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:24:21,677 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:24:21,677 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:28:45,528 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:28:48,242 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:28:48,243 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:28:50,931 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:28:51,905 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:28:53,751 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:28:53,754 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:28:53,755 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:32:49,868 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:32:50,788 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:32:50,789 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:32:51,901 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:32:52,965 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:32:57,067 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户和渠道的开发，未涉及无人机销售。
+2025-07-09 16:32:57,069 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:32:57,069 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:35:53,807 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:35:55,025 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:35:55,026 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:35:56,097 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:35:56,784 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:35:59,169 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:35:59,171 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:35:59,171 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:37:21,759 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:37:23,171 - __main__ - INFO - 用户切换到页面: Test Model
+2025-07-09 16:37:23,173 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:37:24,650 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:37:25,424 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:37:27,668 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人在北京梦之墨科技有限公司担任大区销售经理，主要负责高校客户及渠道的开发，未涉及无人机销售。
+2025-07-09 16:37:27,945 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:37:27,945 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:37:45,738 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:37:59,607 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:38:14,031 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:38:15,448 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:38:16,371 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:38:18,825 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人的工作经历主要集中在防雷和电气机械领域，未涉及嵌入式硬件开发，且没有ARM Cortex A、M系列处理器或Linux嵌入式项目设计的经验。
+2025-07-09 16:38:19,095 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:38:19,095 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:39:35,011 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:39:42,836 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:39:43,832 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:39:46,546 - gpt_fine_tuner - INFO - Model response: 不匹配，这个人的工作经历主要集中在防雷和电气机械领域，未涉及嵌入式硬件开发，且没有ARM Cortex A、M系列处理器或Linux嵌入式项目设计的经验。
+2025-07-09 16:39:46,761 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:39:46,761 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 16:40:52,762 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:40:52,850 - __main__ - INFO - local_data.json loaded.
+2025-07-09 16:40:53,761 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 16:40:55,726 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验的要求。
+2025-07-09 16:40:55,983 - __main__ - INFO - local_data.json updated.
+2025-07-09 16:40:55,984 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:18:07,761 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:18:09,110 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:18:10,039 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 17:18:12,256 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验的要求。
+2025-07-09 17:18:12,462 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:18:12,462 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:18:28,663 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:18:30,262 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:18:31,197 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 17:18:33,518 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验要求，并且熟悉ARM Cortex M系列处理器和Linux嵌入式项目设计，具有丰富的项目经验。
+2025-07-09 17:18:33,819 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:18:33,820 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:34:02,722 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:02,843 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:03,770 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.3
+2025-07-09 17:34:09,606 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验要求，并且熟悉ARM Cortex M系列处理器和Linux嵌入式项目设计，符合岗位要求。
+2025-07-09 17:34:09,822 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:34:09,822 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:34:28,645 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:28,744 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:29,699 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.3
+2025-07-09 17:34:32,987 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:33,465 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件开发，符合嵌入式硬件开发经验的要求。
+2025-07-09 17:34:34,199 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:34:35,121 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.5
+2025-07-09 17:34:43,251 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验要求。
+2025-07-09 17:34:43,493 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:34:43,493 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:35:55,004 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:35:55,097 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:35:56,006 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.5
+2025-07-09 17:35:57,954 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:35:58,100 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:35:58,414 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件开发，符合嵌入式硬件开发经验的要求。
+2025-07-09 17:35:59,009 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.0
+2025-07-09 17:36:01,058 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验要求。
+2025-07-09 17:36:01,330 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:36:01,330 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:36:41,161 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:36:44,170 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:36:44,260 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:36:45,276 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.7
+2025-07-09 17:36:49,056 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件开发，具有丰富的嵌入式项目经验，符合岗位要求。
+2025-07-09 17:36:49,312 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:36:49,313 - __main__ - INFO - 模型测试结果已保存。
+2025-07-09 17:37:24,281 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:37:27,100 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:37:27,965 - __main__ - INFO - local_data.json loaded.
+2025-07-09 17:37:28,880 - __main__ - INFO - 测试模型: model_id=ft:gpt-4.1-mini-2025-04-14:anyhelper::BpY0RELu, temperature=0.9
+2025-07-09 17:37:31,014 - gpt_fine_tuner - INFO - Model response: 非常匹配，这个人在深圳市海威达科技有限公司担任嵌入式研发部门经理，负责嵌入式硬件和软件的开发，符合嵌入式硬件开发经验的要求。他熟悉ARM Cortex M系列处理器和Linux嵌入式项目设计，且有多年相关工作经验。
+2025-07-09 17:37:31,300 - __main__ - INFO - local_data.json updated.
+2025-07-09 17:37:31,300 - __main__ - INFO - 模型测试结果已保存。

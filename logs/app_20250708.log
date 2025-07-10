@@ -1,0 +1,165 @@
+2025-07-08 12:06:41,719 - __main__ - INFO - 用户上传了文件: 客服中心负责人 + A 新HRD.xlsx
+2025-07-08 12:06:41,722 - __main__ - INFO - 临时Excel文件路径: C:\Users\AYNum\AppData\Local\Temp\tmp8nqt63pv.xlsx
+2025-07-08 12:06:41,722 - __main__ - INFO - 输出JSONL文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 12:06:41,722 - __main__ - INFO - 开始转换Excel文件到JSONL格式。
+2025-07-08 12:06:42,096 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmp8nqt63pv.xlsx
+2025-07-08 12:06:42,097 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 12:06:42,097 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 12:06:42,097 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 12:06:42,097 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 12:06:42,106 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 12:06:42,107 - __main__ - INFO - 转换成功，准备提供下载。
+2025-07-08 12:07:45,402 - __main__ - INFO - 用户上传了文件: 客服中心负责人 + A 新HRD.xlsx
+2025-07-08 12:07:45,403 - __main__ - INFO - 临时Excel文件路径: C:\Users\AYNum\AppData\Local\Temp\tmpgy1s96tb.xlsx
+2025-07-08 12:07:45,403 - __main__ - INFO - 输出JSONL文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 12:07:45,403 - __main__ - INFO - 开始转换Excel文件到JSONL格式。
+2025-07-08 12:07:45,433 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpgy1s96tb.xlsx
+2025-07-08 12:07:45,433 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 12:07:45,433 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 12:07:45,433 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 12:07:45,433 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 12:07:45,439 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 12:07:45,440 - __main__ - INFO - 转换成功，准备提供下载。
+2025-07-08 12:10:54,442 - __main__ - INFO - 用户上传了文件: 客服中心负责人 + A 新HRD.xlsx
+2025-07-08 12:10:54,444 - __main__ - INFO - 临时Excel文件路径: C:\Users\AYNum\AppData\Local\Temp\tmpm62p7qme.xlsx
+2025-07-08 12:10:54,444 - __main__ - INFO - 输出JSONL文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:10:54,444 - __main__ - INFO - 开始转换Excel文件到JSONL格式。
+2025-07-08 12:10:54,473 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpm62p7qme.xlsx
+2025-07-08 12:10:54,473 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 12:10:54,473 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 12:10:54,474 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 12:10:54,474 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:10:54,481 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 12:10:54,482 - __main__ - INFO - 转换后的文件路径已保存到session state: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:10:54,483 - __main__ - INFO - 转换成功，准备提供下载。
+2025-07-08 12:11:36,448 - __main__ - INFO - 用户上传了文件: 客服中心负责人 + A 新HRD.xlsx
+2025-07-08 12:11:36,449 - __main__ - INFO - 临时Excel文件路径: C:\Users\AYNum\AppData\Local\Temp\tmpbfyugy3t.xlsx
+2025-07-08 12:11:36,450 - __main__ - INFO - 输出JSONL文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:11:36,450 - __main__ - INFO - 开始转换Excel文件到JSONL格式。
+2025-07-08 12:11:36,475 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpbfyugy3t.xlsx
+2025-07-08 12:11:36,475 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 12:11:36,475 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 12:11:36,476 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 12:11:36,476 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:11:36,481 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 12:11:36,482 - __main__ - INFO - 转换后的文件路径已保存到session state: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\combined.jsonl
+2025-07-08 12:11:36,482 - __main__ - INFO - 转换成功，准备提供下载。
+2025-07-08 13:43:55,840 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpt3qlyqrq.xlsx
+2025-07-08 13:43:55,840 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 13:43:55,840 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 13:43:55,840 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 13:43:55,840 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 13:43:55,847 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 13:44:21,214 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpp_dyp5tm.xlsx
+2025-07-08 13:44:21,214 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 13:44:21,215 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 13:44:21,215 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 13:44:21,215 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 13:44:21,219 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 13:48:15,721 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpmo4_fo9e.xlsx
+2025-07-08 13:48:15,721 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 13:48:15,721 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 13:48:15,721 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 13:48:15,721 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 13:48:15,726 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 13:48:25,750 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpbn_td7wp.xlsx
+2025-07-08 13:48:25,751 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 13:48:25,751 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 13:48:25,751 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 13:48:25,751 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\AppData\Local\Temp\combined.jsonl
+2025-07-08 13:48:25,757 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 16:11:12,267 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmparcwk54x.xlsx
+2025-07-08 16:11:12,267 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 16:11:12,267 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 16:11:12,268 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 16:11:12,268 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\asdf
+2025-07-08 16:11:12,276 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:07:24,421 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpaqj5gs0k.xlsx
+2025-07-08 17:07:24,421 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:07:24,421 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:07:24,422 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:07:24,422 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-客服中心负责人 + A 新HRD-2025-07-08.jsonl
+2025-07-08 17:07:24,430 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:12:10,840 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpbwpk3nqw.xlsx
+2025-07-08 17:12:10,841 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:12:10,841 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:12:10,841 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:12:10,841 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:12:10,850 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:13:28,779 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmp4igc101t.xlsx
+2025-07-08 17:13:28,779 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:13:28,779 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:13:28,779 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:13:28,780 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:13:28,786 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:13:42,607 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmp_mznwm9r.xlsx
+2025-07-08 17:13:42,607 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:13:42,607 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:13:42,608 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:13:42,608 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:13:42,614 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:14:10,772 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmp6n_altz9.xlsx
+2025-07-08 17:14:10,773 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:14:10,773 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:14:10,773 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:14:10,773 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:14:10,781 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:14:12,036 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpe1vppktq.xlsx
+2025-07-08 17:14:12,036 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:14:12,036 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:14:12,036 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:14:12,036 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:14:12,044 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:14:19,891 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmpkzci41a8.xlsx
+2025-07-08 17:14:19,892 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:14:19,892 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:14:19,892 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:14:19,892 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:14:19,901 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:14:27,429 - excel_to_jsonl - INFO - 成功加载Excel文件: C:\Users\AYNum\AppData\Local\Temp\tmp0c5ofd1v.xlsx
+2025-07-08 17:14:27,429 - excel_to_jsonl - INFO - 数据行数: 72
+2025-07-08 17:14:27,429 - excel_to_jsonl - INFO - 列名: ['System Prompt', 'Input', 'Output']
+2025-07-08 17:14:27,430 - excel_to_jsonl - INFO - 列映射关系: {'system_prompt': 'System Prompt', 'input': 'Input', 'output': 'Output'}
+2025-07-08 17:14:27,430 - excel_to_jsonl - INFO - 输出文件路径: C:\Users\AYNum\OneDrive - personalmicrosoftsoftware.uci.edu\Documents\School\Year 2\Study Abroad\AnyHelper Work\Prompt FineTuner\file-combined-2025-07-08.jsonl
+2025-07-08 17:14:27,438 - excel_to_jsonl - INFO - 成功处理72条数据
+2025-07-08 17:58:18,764 - __main__ - INFO - local_data.json loaded.
+2025-07-08 17:58:20,763 - __main__ - INFO - 用户切换到页面: Upload Files to OpeanAI (tbd)
+2025-07-08 17:58:20,764 - __main__ - INFO - 用户访问了未实现页面: Upload Files to OpeanAI (tbd)
+2025-07-08 17:58:21,995 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-08 17:58:22,550 - __main__ - INFO - 用户切换到页面: Upload Files to OpeanAI (tbd)
+2025-07-08 17:58:22,551 - __main__ - INFO - 用户访问了未实现页面: Upload Files to OpeanAI (tbd)
+2025-07-08 18:06:11,958 - __main__ - INFO - 用户切换到页面: Home
+2025-07-08 18:06:11,962 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:09:02,437 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:10:33,094 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:11:47,480 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-08 18:11:48,024 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-08 18:11:48,026 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:11:49,453 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-08 18:11:50,079 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-08 18:11:50,080 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:12:01,423 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-08 18:12:03,392 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-08 18:12:03,394 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:12:05,561 - __main__ - INFO - 用户切换到页面: Convert Excel to JSONL
+2025-07-08 18:12:06,140 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-08 18:12:06,143 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:13:13,993 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:13:16,696 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:13:32,161 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:13:33,044 - __main__ - INFO - 准备上传训练文件: C:\Users\AYNum\AppData\Local\Temp\tmpe4sfxq0e.jsonl
+2025-07-08 18:13:33,044 - gpt_fine_tuner - INFO - 上传 C:\Users\AYNum\AppData\Local\Temp\tmpe4sfxq0e.jsonl 至OpenAI...
+2025-07-08 18:13:37,385 - gpt_fine_tuner - INFO - 文件上传成功, 文件ID: file-JGYU3krELphNP2mVu8Jcbs
+2025-07-08 18:13:37,386 - __main__ - INFO - local_data.json updated.
+2025-07-08 18:13:37,386 - __main__ - INFO - 训练文件上传成功，file_id: file-JGYU3krELphNP2mVu8Jcbs
+2025-07-08 18:13:48,901 - __main__ - INFO - local_data.json loaded.
+2025-07-08 18:13:49,596 - __main__ - INFO - 准备上传验证文件: C:\Users\AYNum\AppData\Local\Temp\tmpjfkey2xr.jsonl
+2025-07-08 18:13:49,597 - gpt_fine_tuner - INFO - 上传 C:\Users\AYNum\AppData\Local\Temp\tmpjfkey2xr.jsonl 至OpenAI...
+2025-07-08 18:13:52,163 - gpt_fine_tuner - INFO - 文件上传成功, 文件ID: file-4EHTaeiQEYPEM9RmbFQhMt
+2025-07-08 18:13:52,164 - __main__ - INFO - local_data.json updated.
+2025-07-08 18:13:52,164 - __main__ - INFO - 验证文件上传成功，file_id: file-4EHTaeiQEYPEM9RmbFQhMt
+2025-07-09 10:38:40,015 - __main__ - INFO - local_data.json loaded.
+2025-07-09 10:38:41,548 - __main__ - INFO - 用户切换到页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:38:41,549 - __main__ - INFO - 用户访问了未实现页面: Create Fine-tuning Job (tbd)
+2025-07-09 10:38:42,692 - __main__ - INFO - 用户切换到页面: Upload Files to OpenAI
+2025-07-09 10:38:42,693 - __main__ - INFO - local_data.json loaded.
