@@ -541,5 +541,4 @@ def main():
         st.info("This page is coming soon!")
         logger.info(f"用户访问了未实现页面: {st.session_state.page}")
 
-if __name__ == "__main__":
-    main()
+main()
