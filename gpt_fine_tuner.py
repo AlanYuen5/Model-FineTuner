@@ -1,3 +1,4 @@
+import pandas as pd
 import openai
 from logger import setup_logger
 from typing import Optional, Literal
