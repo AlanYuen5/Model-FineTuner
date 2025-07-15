@@ -120,6 +120,9 @@ logger = setup_logger(__name__)
 #     result = fine_tuner.ask_model(model_id=model_id, system_prompt=system_prompt, test_message=test_message, temperature=0.0)
 
 
+import streamlit.web.bootstrap
+
 if __name__ == "__main__":
-    import os
-    os.system("python -m streamlit run main_ui.py")
+    # import os
+    # os.system("python -m streamlit run main_ui.py")
+    streamlit.web.bootstrap.run('main_ui.py', False, [], {})
