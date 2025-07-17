@@ -6,6 +6,9 @@ from datetime import datetime
 from excel_to_jsonl import convert_excel_to_jsonl
 from logger import setup_logger
 from gpt_fine_tuner import GPTFineTuner
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 
 logger = setup_logger(__name__)
 
@@ -117,17 +120,28 @@ def home_page():
     2. Upload training/validation files to OpenAI
     3. Create and monitor fine-tuning model jobs
     4. Test your fine-tuned or any OpenAI model
-    """)
-    
+    """) 
+
     st.markdown("---")
-    st.subheader("Instructions / Steps")
+    st.subheader("General Instructions / Steps")
     st.markdown("""
-    1. Set your OpenAI API Key down below.
-    2. Go to **Convert Excel to JSONL** to prepare training/validation data.
-    3. Go to **Upload Files to OpeanAI** and upload training (and optional validation) files.
-    4. Create a fine-tuning job and monitor its progress.
-    5. Test your model with custom prompts.
+    Data Pre-handling:
+    1. Make sure training data is split into 2 excel files, training & validation data
+    2. Data should be in a 80/20 ratio with training being 80% and validation being 20%.
+    3. If there are multiple positions, make sure data split is in an even ratio e.g.
+        - From: One combined file: 34 position 1, 32 position 2
+        - To: Two separate files: 
+            - Training: 27 position 1, 26 position 2
+            - Validation: 7 position 1, 6 position 2
     """)
+    st.markdown("""
+    App Instructions:
+    1. Set your OpenAI API Key down below and refresh model list.
+    2. Go to **Convert Excel to JSONL** to convert both training and validation files to JSONL.
+    3. Go to **Upload Files to OpenAI** and upload training and validation files.
+    4. Create a fine-tuning job with uploaded files and monitor progress.
+    5. Test model one prompt at a time with custom prompts.
+    """)    
     st.markdown("---")
 
     # API Key input
@@ -353,7 +367,17 @@ def create_fine_tune_job_page():
 
     st.markdown("---")
     st.markdown("### Step 4: Create Fine-tuning Job")
-    if st.button("创建微调任务 (Create Fine-tune Job)"):
+    chart_placeholder = st.empty()
+    status_placeholder = st.empty()
+    cancel_training_state = st.session_state.get('cancel_training', False)
+    running_job_id = st.session_state.get('running_job_id', None)
+    col_create, col_cancel = st.columns([2, 1])
+    with col_create:
+        create_clicked = st.button("创建微调任务 (Create Fine-tune Job)")
+    with col_cancel:
+        cancel_clicked = st.button("取消训练 (Cancel Training)", disabled=not running_job_id)
+
+    if create_clicked:
         # Prepare hyperparameters
         def parse_int_auto(val):
             return None if val.strip().lower() == "auto" else int(val)
@@ -377,19 +401,110 @@ def create_fine_tune_job_page():
             local_data["job_id"] = job_id
             save_local_data(local_data)
             logger.info(f"微调任务创建成功，job_id: {job_id}")
-            # Optionally, monitor and fetch model_id
-            with st.spinner("等待训练完成... (可在日志中查看进度)"):
-                model_id = fine_tuner.monitor_training(job_id)
-            if model_id:
-                st.success(f"训练完成！模型ID: {model_id}")
-                local_data["model_id"] = model_id
-                save_local_data(local_data)
-                logger.info(f"训练完成，模型ID: {model_id}")
-            else:
-                st.warning("训练未完成或失败，请检查日志。")
+            st.session_state['running_job_id'] = job_id
+            st.session_state['cancel_training'] = False
+            # Real-time training monitor and chart
+            import time
+            import pandas as pd
+            from itertools import count
+            # Use Streamlit's spinner for user feedback
+            with st.spinner("等待训练完成... (可在下方图表实时查看进度)"):
+                metric_names = ["train_loss", "valid_loss", "train_accuracy", "valid_accuracy"]
+                metric_labels = {
+                    "train_loss": "Train Loss",
+                    "valid_loss": "Validation Loss",
+                    "train_accuracy": "Train Accuracy",
+                    "valid_accuracy": "Validation Accuracy"
+                }
+                # For charting
+                chart_data = {k: [] for k in metric_names}
+                steps = []
+                final_model_id = None
+                for status, latest_metrics, history in fine_tuner.monitor_training(job_id, check_interval=10):
+                    # Check if cancel was requested
+                    if st.session_state.get('cancel_training', False):
+                        fine_tuner.cancel_training(job_id)
+                        status = "cancelled"
+                        status_placeholder.warning("训练被用户取消。")
+                        break
+                    # Update chart data
+                    if latest_metrics:
+                        step = latest_metrics.get("step", len(steps))
+                        steps.append(step)
+                        for k in metric_names:
+                            v = latest_metrics.get(k)
+                            chart_data[k].append(v if v is not None else None)
+                        # Prepare DataFrame for plotting
+                        df = pd.DataFrame({metric_labels[k]: chart_data[k] for k in metric_names if any(chart_data[k])})
+                        df["Step"] = steps
+                        df = df.set_index("Step")
+                        # Plot all available metrics
+                        fig, ax = plt.subplots(figsize=(7, 4))
+                        plotted = False
+                        train_loss_series = df.get("Train Loss")
+                        valid_loss_series = df.get("Validation Loss")
+                        train_acc_series = df.get("Train Accuracy")
+                        valid_acc_series = df.get("Validation Accuracy")
+                        if train_loss_series is not None and train_loss_series.notnull().any():
+                            ax.plot(df.index, train_loss_series, label="Train Loss", color="#1f77b4")
+                            plotted = True
+                        if valid_loss_series is not None and valid_loss_series.notnull().any():
+                            ax.plot(df.index, valid_loss_series, label="Validation Loss", color="#ff7f0e")
+                            plotted = True
+                        if train_acc_series is not None and train_acc_series.notnull().any():
+                            ax.plot(df.index, train_acc_series, label="Train Accuracy", color="#2ca02c")
+                            plotted = True
+                        if valid_acc_series is not None and valid_acc_series.notnull().any():
+                            ax.plot(df.index, valid_acc_series, label="Validation Accuracy", color="#d62728")
+                            plotted = True
+                        ax.set_xlabel("Step")
+                        ax.set_title("Training Progress (Real-Time)")
+                        ax.legend()
+                        ax.grid(True, linestyle='--', alpha=0.3)
+                        chart_placeholder.pyplot(fig)
+                        plt.close(fig)
+                    # Update status
+                    status_msg = f"当前状态: {status}"
+                    if latest_metrics:
+                        if latest_metrics.get("train_loss") is not None:
+                            status_msg += f" | 训练损失: {latest_metrics['train_loss']:.4f}"
+                        if latest_metrics.get("valid_loss") is not None:
+                            status_msg += f" | 验证损失: {latest_metrics['valid_loss']:.4f}"
+                        if latest_metrics.get("train_accuracy") is not None:
+                            status_msg += f" | 训练准确率: {latest_metrics['train_accuracy']:.3f}"
+                        if latest_metrics.get("valid_accuracy") is not None:
+                            status_msg += f" | 验证准确率: {latest_metrics['valid_accuracy']:.3f}"
+                    status_placeholder.info(status_msg)
+                    # End if finished
+                    if status in ("succeeded", "failed", "cancelled"):
+                        if status == "succeeded":
+                            final_model_id = getattr(fine_tuner, 'model_id', None)
+                        break
+                    time.sleep(0.1)
+                # Final summary
+                st.session_state['running_job_id'] = None
+                st.session_state['cancel_training'] = False
+                if final_model_id:
+                    st.success(f"训练完成！模型ID: {final_model_id}")
+                    local_data["model_id"] = final_model_id
+                    save_local_data(local_data)
+                    logger.info(f"训练完成，模型ID: {final_model_id}")
+                elif status == "failed":
+                    st.error("训练失败，请检查日志。")
+                    logger.error("训练失败。")
+                elif status == "cancelled":
+                    st.warning("训练被取消。")
+                    logger.warning("训练被取消。")
         else:
             st.error("微调任务创建失败，请检查日志。")
             logger.error("微调任务创建失败。")
+
+    # Handle cancel button click
+    if cancel_clicked and running_job_id:
+        fine_tuner = GPTFineTuner(api_key=api_key)
+        fine_tuner.cancel_training(running_job_id)
+        st.session_state['cancel_training'] = True
+        status_placeholder.warning("训练取消请求已发送。")
 
 def test_model_page():
     st.title("Test Model")

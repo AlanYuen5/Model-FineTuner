@@ -91,9 +91,11 @@ class GPTFineTuner:
             logger.error(f"创建微调任务失败: {e}")
             return None
 
-    def monitor_training(self, job_id: str, check_interval: int = 20) -> Optional[str]:
+    def monitor_training(self, job_id: str, check_interval: int = 20):
         """
-        Monitor progress of fine-tuning job with detailed metrics
+        Monitor progress of fine-tuning job with detailed metrics, yielding after each poll for real-time UI updates.
+        Yields (status, latest_metrics, training_history) after each poll.
+        Returns model_id (or None) at the end.
         """
         logger.info(f"监督微调任务 {job_id}...")
         
@@ -101,7 +103,7 @@ class GPTFineTuner:
         training_history = []
         best_val_loss = float('inf')
         patience_counter = 0
-        patience_limit = 5  # Stop if no improvement for 5 checks
+        patience_limit = 10  # Stop if no improvement for 10 checks
 
         try:
             while True:
@@ -161,28 +163,53 @@ class GPTFineTuner:
                     
                     logger.info("=" * 20)
 
+                # Yield for real-time UI update
+                yield status, latest_metrics, training_history
+
                 # Check final status
                 if status == "succeeded":
                     self.model_id = job.fine_tuned_model
                     logger.info(f"训练完成! 模型ID: {self.model_id}")
                     self._log_final_summary(training_history)
-                    return self.model_id
+                    break
                 elif status == "failed":
                     logger.error(f"训练失败, 错误: {job.error}")
-                    return None
+                    break
                 elif status == "cancelled":
                     logger.info("训练取消")
-                    return None
+                    break
 
                 time.sleep(check_interval)
 
         except KeyboardInterrupt:
             logger.info("停止监督，取消微调任务")
             self.cancel_training(job_id)
-            return None
+            yield "cancelled", None, training_history
         except Exception as e:
             logger.error(f"监督失败: {e}")
-            return None
+            yield "failed", None, training_history
+
+        # Return model_id or None at the end
+        return getattr(self, 'model_id', None)
+
+    def get_training_metrics(self, job_id: str):
+        """
+        Fetch the latest metrics and status for a given job_id. Returns (status, latest_metrics, training_history)
+        """
+        try:
+            job = self.client.fine_tuning.jobs.retrieve(job_id)
+            status = job.status
+            events = self.client.fine_tuning.jobs.list_events(job_id, limit=50)
+            latest_metrics = self._extract_latest_metrics(events)
+            # For history, collect all metrics events
+            history = []
+            for event in events.data:
+                if event.type == "metrics" and isinstance(event.data, dict):
+                    history.append(event.data)
+            return status, latest_metrics, history
+        except Exception as e:
+            logger.error(f"获取训练指标失败: {e}")
+            return None, None, []
 
     def _extract_latest_metrics(self, events) -> dict:
         """Extract latest training metrics from events"""
